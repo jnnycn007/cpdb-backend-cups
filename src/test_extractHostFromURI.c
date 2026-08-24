@@ -9,8 +9,6 @@
 #include "test-internal.h"
 #include "backend_helper.h"
 
-// cppcheck-suppress nullPointerRedundantCheck // free(NULL) is valid; test verifies NULL return
-
 // Test extractHostFromURI function
 int main(int argc, char *argv[])
 {
